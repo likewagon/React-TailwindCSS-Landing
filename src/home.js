@@ -8,15 +8,15 @@ import FAQ from "components/faqs/SingleCol.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
 
 const Home = () => {
-    return (
-        <AnimationRevealPage disabled>
+  return (
+    <AnimationRevealPage disabled>
       <Hero />
-      <HowItWorks/>
+      <HowItWorks />
       <Features />
-      <Pricing/>
-      <Pricing/>
-      <FAQ/>
-      <Footer/>
+      <Pricing />
+      <Pricing />
+      <FAQ />
+      <Footer />
     </AnimationRevealPage>)
 };
 export default Home;
